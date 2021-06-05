@@ -35,6 +35,13 @@ html {
 img {
     border-radius: 50%;
     width: 100px;
+    transition: transfrom.2s;
+    
+    
+}
+img:hover
+{
+     transform: scale(0.9)
 }
 
 .line {
@@ -42,6 +49,7 @@ img {
     background-color: black;
     width: 70px;
     margin: 8px auto;
+     transition: transfrom.2s;
 }
 
 Mark {
@@ -52,4 +60,14 @@ Mark {
 Elon {
     transition: transfrom.2s;
     transform: scale(0.9)
+}
+
+Mark:hover
+{
+     transform: scale(0.9)
+}
+
+Elon:hover
+{
+     transform: scale(0.9)
 }
